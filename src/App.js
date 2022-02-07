@@ -2,11 +2,13 @@ import React from "react";
 import "./App.css";
 import Row from "./Components/Row";
 import Banner from "./Components/Banner"
+import Nav from "./Components/Nav";
 import requests from "./requests";
 
 function App() {
   return (
     <div className="App">
+      <Nav/>
       <Banner/>
       <Row
         title="NETFLIX ORIGINALS" isLargeRow
